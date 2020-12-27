@@ -1,0 +1,259 @@
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+
+            <!-- CSS only -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+            <!-- JavaScript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+            <link rel="stylesheet" href="CSS/styles.css">
+            <link rel="stylesheet" href="CSS/new.css">
+
+            <style>
+                .navbar {
+                    margin-bottom: 0px;
+                }
+
+                #navbarSupportedContent {
+                    background-color: transparent;
+                }
+            </style>
+
+        </head>
+
+        <body>
+
+            <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="photo" src="img/images.jpg"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Homepage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">What's New</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="signup.html">Signup</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success active" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+            <!------------  Side Bar Start ------------>
+
+            <div class="wrapper">
+                <!--         Sidebar  -->
+                <nav id="sidebar">
+                    <div class="sidebar-header">
+                        <h3>Buy & Sell</h3>
+                        <strong>BS</strong>
+                    </div>
+
+                    <ul class="list-unstyled components">
+                        <li class="active">
+                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                                <i class="fas fa-home"></i>
+                                Home
+                            </a>
+                            <ul class="collapse list-unstyled" id="homeSubmenu">
+                                <li>
+                                    <a href="#">Home 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Home 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Home 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-briefcase"></i>
+                                About
+                            </a>
+                            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                                <i class="fas fa-copy"></i>
+                                Pages
+                            </a>
+                            <ul class="collapse list-unstyled" id="pageSubmenu">
+                                <li>
+                                    <a href="#">Page 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Page 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Page 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </nav>
+<!--            </div>-->
+
+            <!--         Page Content  -->
+            <div id="content">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+
+                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fas fa-align-left"></i>
+                            <span>Toggle Sidebar</span>
+                        </button>
+                    </div>
+                </nav>
+<!--            </div>-->
+
+            <!------------  Side Bar End -------------->
+
+
+
+            <h1 class="heading">Exclusive Offer's</h1>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 list">
+                        <a style="text-decoration:none" href="#">
+                            <img src="img/Apple_iPhone_11_Green_09102019.png">
+                            <p class="text">iPhone 12 and iPhone 12 Pro Water
+                                resistant Wide camera.</p>
+
+                            <p class="text"><strong class="paisa">RS. 79500</strong> <del>RS.99500</del></p>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 phone">
+                        <a style="text-decoration:none" href="#">
+                            <img src="img/redmi-k20-pro2-transparent_0.png">
+                            <p class="text">Redmi Note 8 and Redmi Note 8 pro
+                                Water resistant Wide camera.</p>
+                            <p class="text"><strong class="paisa">RS. 19500</strong> <del>RS.29500</del></p>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 list">
+                        <a style="text-decoration:none" href="#">
+                            <img src="img/Apple_iPhone_11_Green_09102019.png">
+                            <p class="text">iPhone 12 and iPhone 12 Pro Water
+                                resistant Wide camera.</p>
+                            <p class="text"><strong class="paisa">RS. 79500</strong> <del>RS.99500</del></p>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 phone">
+                        <a style="text-decoration:none" href="#">
+                            <img src="img/redmi-k20-pro2-transparent_0.png">
+                            <p class="text">Redmi Note 8 and Redmi Note 8 pro
+                                Water resistant Wide camera.</p>
+                            <p class="text"><strong class="paisa">RS. 19500</strong> <del>RS.29500</del></p>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 list">
+                        <a style="text-decoration:none" href="#">
+                            <img src="img/Apple_iPhone_11_Green_09102019.png">
+                            <p class="text">iPhone 12 and iPhone 12 Pro Water
+                                resistant Wide camera.</p>
+                            <p class="text"><strong class="paisa">RS. 79500</strong> <del>RS.99500</del></p>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 phone">
+                        <a style="text-decoration:none" href="#">
+                            <img src="img/redmi-k20-pro2-transparent_0.png">
+                            <p class="text">Redmi Note 8 and Redmi Note 8 pro
+                                Water resistant Wide camera.</p>
+                            <p class="text"><strong class="paisa">RS. 19500</strong> <del>RS.29500</del></p>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 list">
+                        <a style="text-decoration:none" href="#">
+                            <img src="img/Apple_iPhone_11_Green_09102019.png">
+                            <p class="text">iPhone 12 and iPhone 12 Pro Water
+                                resistant Wide camera.</p>
+                            <p class="text"><strong class="paisa">RS. 79500</strong> <del>RS.99500</del></p>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 phone">
+                        <a style="text-decoration:none" href="#">
+                            <img src="img/redmi-k20-pro2-transparent_0.png">
+                            <p class="text">Redmi Note 8 and Redmi Note 8 pro
+                                Water resistant Wide camera.</p>
+                            <p class="text"><strong class="paisa">RS. 19500</strong> <del>RS.29500</del></p>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 list">
+                        <a style="text-decoration:none" href="#">
+                            <img src="img/Apple_iPhone_11_Green_09102019.png">
+                            <p class="text">iPhone 12 and iPhone 12 Pro Water
+                                resistant Wide camera.</p>
+                            <p class="text"><strong class="paisa">RS. 79500</strong> <del>RS.99500</del></p>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 phone">
+                        <a style="text-decoration:none" href="#">
+                            <img src="img/redmi-k20-pro2-transparent_0.png">
+                            <p class="text">Redmi Note 8 and Redmi Note 8 pro
+                                Water resistant Wide camera.</p>
+                            <p class="text"><strong class="paisa">RS. 19500</strong> <del>RS.29500</del></p>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 list">
+                        <a style="text-decoration:none" href="#">
+                            <img src="img/Apple_iPhone_11_Green_09102019.png">
+                            <p class="text">iPhone 12 and iPhone 12 Pro Water
+                                resistant Wide camera.</p>
+                            <p class="text"><strong class="paisa">RS. 79500</strong> <del>RS.99500</del></p>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 phone">
+                        <a style="text-decoration:none" href="#">
+                            <img src="img/redmi-k20-pro2-transparent_0.png">
+                            <p class="text">Redmi Note 8 and Redmi Note 8 pro
+                                Water resistant Wide camera.</p>
+                            <p class="text"><strong class="paisa">RS. 19500</strong> <del>RS.29500</del></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+            <script src="JS/scripts.js"></script>
+
+
+        </body>
+
+        </html>

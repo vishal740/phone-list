@@ -1,0 +1,62 @@
+.photo {
+    width: 150px;
+    height: 70px;
+
+}
+
+.heading {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.list {
+    border: 1px solid black;
+}
+
+.list img {
+    height: 250px;
+    margin-top: 10%;
+    margin: 20px;
+    margin-left: 25%;
+}
+
+.text {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    
+}
+
+.paisa {
+    color: red;
+    font-size: 20px;
+}
+
+.phone {
+    border: 1px solid black;
+}
+
+.phone img {
+    height: 235px;
+    margin: 20px;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 100%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
